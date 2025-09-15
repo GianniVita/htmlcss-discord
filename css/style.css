@@ -25,6 +25,11 @@
     background-color: #23272a
 }
 
+.debug .main-intro{
+    background-color: rgb(190, 234, 234);
+}
+
+
 /*.debug{
     border: 1px dotted black;
 }*/
@@ -61,24 +66,32 @@ header > div.d-flex.container{
 .main-intro{
     display: flex;
     width: 100%;
-    height: 300px;
-    background-color: rgb(190, 234, 234);
+    height: 250px;
     justify-content: center;
     background-image:url(../img/jumbo.png);
-    
-   
-
+    background-size:contain;
 }
 /*  !end first section */
 
 button{
-    color: blue;
-    background-color: blueviolet;
+    color:#f6f6f6;
+    text-decoration: solid;
     border-radius: 4px;
 }
 
 img{
     height: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f6f6f6;
+}
+
+h1{
+    padding-top: 10px;
+
 }
 
 .content-right{
@@ -100,7 +113,7 @@ img{
 }
 
 .image{
-    width: 50%;
+    width: 60%;
     height: 100px;
 }
 
