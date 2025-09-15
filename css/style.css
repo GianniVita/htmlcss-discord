@@ -78,6 +78,7 @@ header > div.d-flex.container{
     height: 450px;
     justify-content: center;
     background-image:url(../img/jumbo.png);
+    
 }
 /*  !end first section */
 
@@ -99,6 +100,7 @@ a{
 
 h1{
     padding-top: 10px;
+    align-content: center;
 
 }
 
