@@ -162,7 +162,6 @@ h4{
 }
 
 .debug .last-section{
-    height: 400px;
     background-color: #3161e0;
 }
 .last-section{
@@ -177,11 +176,6 @@ h4{
     height: 150px;
     justify-content: center;
     margin: 30px;
-}
-.last-image{
-    display: flex;
-    width: 500px;
-    height:300px;  
 }
 
 
@@ -229,19 +223,23 @@ ul{
 .columns{
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 700px;
     
 }
 
 .column{
-    
-    height: 300px;
     width: 100px;
-    
+}
+
+.column:first-child{
+    width: 150px;
 }
 
 .finalfooter{
     display: flex; 
-    margin-top: 150px;
     justify-content: center;
+}
+
+.last-line{
+    justify-content: space-between;
 }
