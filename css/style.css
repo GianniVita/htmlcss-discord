@@ -95,6 +95,11 @@ header > div.d-flex.container{
 }
 /*  !end first section */
 
+nav{
+    padding-top: 10px;
+}
+
+
 button{
     color:#23272a;
     text-decoration: solid;
