@@ -34,7 +34,7 @@
 .debug .main-intro{
     background-color: rgb(190, 234, 234);
 }
-.debug section{
+.debug .finalfooter{
     background: red;
 }
 
@@ -63,7 +63,6 @@
 header{
     background-color: #3161e0;
     padding: .5rem 0;
-
 }
 
 header > div.d-flex.container{
@@ -78,7 +77,6 @@ header > div.d-flex.container{
     justify-content: center;
     background-image:url(../img/jumbo.png);
     background-size: cover;
-    
 }
 
 .main-intro h1{
@@ -98,20 +96,28 @@ header > div.d-flex.container{
 /*  !end first section */
 
 button{
-    color:#f6f6f6;
+    color:#23272a;
     text-decoration: solid;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
+.b-enter{
+    border-radius: 6px;
+    color:var(--color-second);
+    border-bottom-style: none;
+    text-decoration:none;
+    font-weight: bold;
+    height: 10px;
+}
 a{
     text-decoration: none;
-    font-weight: bold;
     color: #f6f6f6;
 }
 
 h1{
     padding-top: 10px;
     align-content: center;
+    color: var(--color-main);
 
 }
 
@@ -121,6 +127,12 @@ li{
 
 h4{
     color: var(--color-main);
+}
+
+.h3-color{
+    color: #23272a;
+    display: block; 
+    font-size: 2em;    
 }
 
 .botton-personal{
@@ -190,11 +202,10 @@ h4{
 }
 
 .debug .last-section div:nth-child(4){
-    height: 50px;
+    height: auto;
 }
 
 .last-section div:nth-child(3){
-    width: 500px;
     justify-content: center;
 }
 
