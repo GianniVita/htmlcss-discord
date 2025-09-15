@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --color-main: #3161e0;
+    --color-second:#23272a;
+    --color-button: #f6f6f6;
+    --color-text: #ffffff;
+}
+
 
 .debug *{
     border: 1px dashed black;
@@ -66,10 +73,9 @@ header > div.d-flex.container{
 .main-intro{
     display: flex;
     width: 100%;
-    height: 250px;
+    height: 450px;
     justify-content: center;
     background-image:url(../img/jumbo.png);
-    background-size:contain;
 }
 /*  !end first section */
 
@@ -94,12 +100,20 @@ h1{
 
 }
 
+.botton-personal{
+    color: #23272a;
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+}
+
 .content-right{
     display: flex;
     background-color: #f6f6f6;
     padding: 30px;
     justify-content: space-between;
 }
+
 .content-left{
     display: flex;
     background-color: #3161e0;
@@ -118,10 +132,10 @@ h1{
 }
 
 
- .sentence{
+ div .sentence{
         
     height: 100px;
-    width: 35%;
+    width: 200px;
 }
 
 .debug .last-section{
