@@ -115,6 +115,14 @@ h1{
 
 }
 
+li{
+    color: var(--color-text);
+}
+
+h4{
+    color: var(--color-main);
+}
+
 .botton-personal{
     color: #23272a;
     font-weight: bold;
@@ -203,7 +211,20 @@ h1{
 
 footer{
    margin: auto;
+   background-color: #23272a;
 }
+
+
+ul{
+    list-style-type: none; 
+}
+
+.logo-italia{
+    display: flex;
+    height: 18px;
+}
+
+
 
 .columns{
     display: flex;
@@ -214,14 +235,13 @@ footer{
 
 .column{
     
-    height: 150px;
-    width: 80px;
+    height: 300px;
+    width: 100px;
     
 }
 
 .finalfooter{
     display: flex; 
     margin-top: 150px;
-    height: 200px;
     justify-content: center;
 }
