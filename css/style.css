@@ -26,10 +26,6 @@
     background-color: yellow;
 }
 
-.debug.red{
-    background: red;
-}
-
 .debug.blu{
     background-color: #23272a
 }
@@ -37,7 +33,9 @@
 .debug .main-intro{
     background-color: rgb(190, 234, 234);
 }
-
+.debug section{
+    background: red;
+}
 
 /*.debug{
     border: 1px dotted black;
@@ -120,14 +118,14 @@ h1{
 
 .content-left{
     display: flex;
-    background-color: #3161e0;
+    background-color: var(--color-button);
     padding: 30px;
     justify-content: space-between;
 }
 
 .intro{
     height: 100px;
-    width: ;
+   
 }
 
 .image{
