@@ -12,6 +12,7 @@
 }
  *{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,sans-serif;
+    color: #ffffff;
  }
 
 .debug *{
@@ -163,23 +164,18 @@ h1{
 }
 
 .message{
-    display: flex;
+    padding: 10px;
     width: 500px;
-    height: 70px;
+    height: 150px;
     justify-content: center;
     margin: 30px;
 }
 .last-image{
     display: flex;
-    width: 120px;
-    height: 150px;  
+    width: 500px;
+    height:300px;  
 }
 
-.last-image{
-    
-    width: 500px;
-    height: 150px;
-}
 
 .last-title{
     justify-content:center;
@@ -225,10 +221,7 @@ footer{
 
 .finalfooter{
     display: flex; 
+    margin-top: 150px;
     height: 200px;
     justify-content: center;
-}
-
-.titolo-jumbotron{
-    
 }
