@@ -25,11 +25,6 @@
     background-color: #23272a
 }
 
-
-    
-
-
-
 /*.debug{
     border: 1px dotted black;
 }*/
@@ -53,9 +48,13 @@
 }
 
 header{
-    justify-content: space-around;
-    background-color: brown;
-    
+    background-color: #3161e0;
+    padding: .5rem 0;
+
+}
+
+header > div.d-flex.container{
+    justify-content: space-between;
 }
 
 /* !first section */
@@ -65,7 +64,7 @@ header{
     height: 300px;
     background-color: rgb(190, 234, 234);
     justify-content: center;
-    background-image: ;
+    background-image:url(../img/jumbo.png);
     
    
 
