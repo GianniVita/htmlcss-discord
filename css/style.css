@@ -103,16 +103,21 @@ nav{
 button{
     color:#23272a;
     text-decoration: solid;
-    border-radius: 6px;
+    border-radius: 18px;
+    border: none;
 }
 
 .b-enter{
+    display: inline-block;
+    border: none;
     border-radius: 6px;
     color:var(--color-second);
     border-bottom-style: none;
     text-decoration:none;
     font-weight: bold;
-    height: 10px;
+    padding-top: 8px;
+    height: 35px;
+    width: 80px;
 }
 a{
     text-decoration: none;
@@ -120,9 +125,11 @@ a{
 }
 
 h1{
-    padding-top: 10px;
+    padding-top: 115px;
     align-content: center;
-    color: var(--color-main);
+    font-weight: 800;
+    font-size: 4rem;
+
 
 }
 
