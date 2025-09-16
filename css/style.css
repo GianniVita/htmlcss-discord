@@ -131,9 +131,11 @@ h1{
     align-content: center;
     font-weight: 800;
     font-size: 4rem;
-
-
 }
+
+.blu-color{
+    color: #23272a;
+} 
 
 li{
     color: var(--color-text);
@@ -160,14 +162,14 @@ h4{
 .content-right{
     display: flex;
     background-color: #f6f6f6;
-    padding: 30px;
+    padding: 8rem;
     justify-content: space-between;
 }
 
 .content-left{
     display: flex;
     background-color: var(--color-button);
-    padding: 30px;
+    padding: 8rem;
     justify-content: space-between;
 }
 
@@ -230,6 +232,7 @@ h4{
     width: 500px;
     justify-content: center;
     padding-bottom: 8rem;
+    padding-top: 4rem;
 }
 
 footer{
