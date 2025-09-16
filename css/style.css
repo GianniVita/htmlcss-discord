@@ -223,6 +223,12 @@ h4{
    
 }
 
+.last-image{
+    padding-top:10rem;
+
+    
+}
+
 .last-section div:nth-child(3){
     justify-content: center;
     background-color: var(--color-text);
