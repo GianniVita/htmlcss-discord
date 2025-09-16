@@ -85,6 +85,8 @@ header > div.d-flex.container{
 
 .main-intro p{
     text-align: center;
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
     font-size: 16px;
 }
 
@@ -148,6 +150,7 @@ h4{
 }
 
 .botton-personal{
+    padding: 4px;
     color: #23272a;
     font-weight: bold;
     height: 30px;
@@ -215,6 +218,7 @@ h4{
 
 .debug .last-section div:nth-child(4){
     height: auto;
+   
 }
 
 .last-section div:nth-child(3){
@@ -225,6 +229,7 @@ h4{
 .last-section div:nth-child(4){
     width: 500px;
     justify-content: center;
+    padding-bottom: 8rem;
 }
 
 footer{
@@ -262,6 +267,7 @@ ul{
 .finalfooter{
     display: flex; 
     justify-content: center;
+    padding-top: 5rem;
 }
 
 .last-line{
